@@ -1,0 +1,73 @@
+.profile{
+    display: flex;
+    justify-content: space-between;
+   padding-bottom: 10px;
+}
+.profile1{
+    display: flex;
+    justify-content: space-between;
+   padding-bottom: 5px;
+}
+.name{
+    font-size: x-large;
+    font-family:serif;
+    color: teal;
+}
+.phone{
+   padding-left: 80px;
+}
+.image1{
+    width: 15px;
+    height:15px;
+    margin: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+.image2{
+    width: 18px;
+    height:18px;
+    margin: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.h1{
+    border-bottom: 3px solid teal;
+    width: auto;
+}
+.title{
+    color: teal;
+    font-family:serif;
+    font-weight:bold;
+}
+.whole{
+    font-family: serif;
+    padding: 50px;
+}
+.arrow{
+   
+    font-size: 20px;
+    padding-right: 10px;
+}
+.role{
+    padding-top: 2px;
+}
+.block{
+    display: flex;
+    padding-left: 20px;
+    /* justify-content: space-between; */
+}
+.c1{
+    display: flex;
+    justify-content: space-between;
+}
+.c2{
+    display: flex;
+}
+.c3{
+    width: fit-content;
+}
+.c4{
+    display: flex;
+    
+    justify-content: space-between;
+}

@@ -2,11 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import 'bootstrap/dist/css/bootstrap.css';
 import reportWebVitals from './reportWebVitals';
-
+import ShowProvider from '../src/components/context'
+import ResumeProvider from '../src/components/resume'
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ShowProvider>
+    <ResumeProvider>
+    <App/>
+    </ResumeProvider>
+    </ShowProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

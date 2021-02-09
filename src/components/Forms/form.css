@@ -1,0 +1,48 @@
+.inputs{
+    width: 255px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: 0px;
+    background-color: #ecdfdf;
+    border-radius: 10px;
+    height: 40px;
+}
+label{
+    margin-bottom: 0rem;
+    font-size: small;
+    color: #503030 ;
+}
+.trash {
+    padding-left: 4px;
+    color:  #bc8f8f ;
+    
+}
+.point {
+    background-color:  #bc8f8f ;
+    border: 1px solid #503030  ;
+    box-shadow:  #bc8f8f ;
+}
+.point:hover{
+    background-color:  #bc8f8f  !important;
+    border: #bc8f8f  !important;
+    
+}
+.point:active{
+    background-color:  #bc8f8f  !important;
+    border: #bc8f8f  !important;
+}
+.point:focus{
+    background-color:  #bc8f8f  !important;
+    border: #bc8f8f  !important;
+}
+.point:visited{
+    background-color:  #bc8f8f  !important;
+    border: #bc8f8f  !important;
+}
+.print{
+   font-size: xx-large;
+    color:black;
+    /* padding-top: 100px; */
+    padding-right: 30px;
+    color:#bc8f8f
+}
