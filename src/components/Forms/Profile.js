@@ -30,7 +30,7 @@ return (
             
             <label>PHONE NUMBER</label>
             <input className="inputs" name='phoneNumber' type='text' onChange={(e)=>handleChange(e)} />
-            <label>EMAIL</label>
+            <div><label>EMAIL</label></div>
             <input className="inputs" name='email' type='email' onChange={(e)=>handleChange(e)}/>
             <label>GITHUB</label>
             <input className="inputs" name='github' type='url' onChange={(e)=>handleChange(e)}/>
